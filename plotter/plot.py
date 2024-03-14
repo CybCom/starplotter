@@ -1,12 +1,11 @@
 import matplotlib.pyplot as plt
 from random import random
 
-res = 0
-
 def do_something():
     global res
     for p in range(10000000):
         res = res + p
+
 
 fig, ax = plt.subplots()
 x = []
