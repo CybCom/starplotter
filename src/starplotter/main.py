@@ -5,7 +5,7 @@ from typing import Tuple, Dict
 import dxcam
 from matplotlib import pyplot as plt
 
-from capturer import capture
+from src.starplotter import capture
 import ocr
 
 Region = Tuple[int, int, int, int]  # (x, y, w, h)

@@ -1,5 +1,5 @@
 import pytesseract
-from controller import main
+from src.starplotter import main
 
 
 def ocr_integer(image):

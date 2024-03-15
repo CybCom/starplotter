@@ -1,5 +1,5 @@
 import matplotlib.pyplot as plt
-from controller import main
+from src.starplotter import main
 
 # from random import random
 #
